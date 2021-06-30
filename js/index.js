@@ -8,8 +8,8 @@ import PreloadScene from './scenes/PreloadScene.js';
 import ScoreScene from './scenes/ScoreScene.js';
 import PauseScene from './scenes/PauseScene.js';
 
-const WIDTH = 400;
-const HEIGHT = 600;
+const WIDTH = 360;
+const HEIGHT = 520;
 const BIRD_POSITION = {  x : WIDTH * 0.1, y: HEIGHT / 2 }
 
 const SHARED_CONFIG = {
@@ -30,7 +30,7 @@ const config = {
     default: 'arcade',     //Arcade Physics plugin - manages physics simulation
     arcade: {
       // gravity: { y: 400 },
-      // debug: true
+    //   debug: true
     }
   },
   scene: initScenes()
